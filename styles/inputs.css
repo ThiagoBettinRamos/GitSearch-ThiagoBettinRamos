@@ -1,0 +1,9 @@
+#usuário{
+    width: 19.75rem;
+    height: 2.375rem;
+    border-radius: 0.25rem;
+    border: none;
+    padding: 0.313rem;
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-6);
+}

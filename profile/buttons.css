@@ -1,0 +1,55 @@
+.button-1{
+    width: 5.813rem;
+    height: 1.75rem;
+    position: center;
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-6);
+    border: 2px var(--color-grey-6) solid;
+    border-radius: 6px;
+    transition: 300ms;
+}
+.button-2{
+    width: 3.5rem;
+    height: 1.75rem;
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-6);
+    border: 2px var(--color-grey-6) solid;
+    border-radius: 6px;
+    transition: 300ms;
+}
+.button-1:hover{
+    background-color: var(--color-brand-2);
+    border: 2px var(--color-brand-2) solid;
+}
+.button-2:hover{
+    background-color: var(--color-brand-2);
+    border: 2px var(--color-brand-2) solid;
+}
+
+.email{
+    width: 5.25rem;
+    height: 2.375rem;
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-6);
+    border: none;
+    border-radius: 6px;
+    transition: 300ms;
+}
+
+.change{
+    width: 10.563rem;
+    height: 2.375rem;
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-6);
+    border: none;
+    border-radius: 6px;
+    transition: 300ms;
+}
+
+.email:hover{
+    background-color: var(--color-brand-2);
+}
+
+.change:hover{
+    background-color: var(--color-brand-2);
+}

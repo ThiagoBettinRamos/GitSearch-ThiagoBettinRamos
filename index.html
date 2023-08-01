@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/globalStyles.css" />
+  <link rel="stylesheet/less" type="text/css" href="./styles/index.less" />
+  <link rel="stylesheet" href="./styles/button.css">
+  <link rel="stylesheet" href="./styles/inputs.css">
+  <link rel="stylesheet/less" type="text/css" href="./styles/fonts.less">
+  <title>Git Search</title>
+</head>
+
+<body>
+  <main class="left">
+    <div class="left-wrapper">
+      <h1 class="font-title-1 color-grey-6">Git Search</h1>
+      <h3 class="font-text-1 color-grey-6">Encontre e se conecte com profissionais de forma rápida e fácil</h3>
+      <div class="recent-user">
+        <p class="font-title-4 color-grey-6">Achados Recentemente:</p>
+        <ul id="recentProfileList"></ul>
+      </div>
+    </div>
+  </main>
+  <main class="right">
+    <div class="box-infoR">
+      <h2 class="font-title-3 color-grey-6">Procurar por um usuário</h2>
+      <form class="information">
+        <label for="usuário" class="font-title-5 color-grey-6">Usuário github</label>
+        <input type="text" id="usuário" placeholder="Digite um usuário do github aqui..." required="true">
+        <button class="login inactive" type="button" id="login">Ver perfil do github</button>
+      </form>
+    </div>
+  </main>
+  <script src="./scripts/events.js"></script>
+  <script src="./scripts/getuser.js"></script>
+  <script src="./scripts/recentprofile.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/less" ></script>
+</body>
+
+</html>
